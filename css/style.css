@@ -85,7 +85,7 @@ nav a:hover{
 
 /* Requirement 3b code here*/
 .skip a:focus{
-  top: 40px;
+  top: 0px;
 }
 
 /* Requirement 4 code here*/
@@ -101,7 +101,7 @@ nav a:hover{
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: repeat(5, 1fr);
-  row-gap: 20px;
+  row-gap: 15px;
 }
 
 /* Remainder of requirements here: */
