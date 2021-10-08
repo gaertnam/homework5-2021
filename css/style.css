@@ -78,14 +78,14 @@ nav a:hover{
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  position: relative;
+  position: absolute;
   top: -40px;
   /* Requirement 3a code here*/
 }
 
 /* Requirement 3b code here*/
 .skip a:focus{
-  top: 69px;
+  top: 40px;
 }
 
 /* Requirement 4 code here*/
@@ -100,7 +100,7 @@ nav a:hover{
   width: 90vw; */
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: auto auto auto auto auto;
   row-gap: 15px;
 }
 
